@@ -6,27 +6,30 @@ This is a Python program that generates a dialogue between two characters on a c
 
 1. Clone this repository to your local machine:
 
-  >git clone https://github.com/victoriamengar/victoriamengar.git
+  >git clone https://github.com/victoriamengar/ITCL.git
 
 2. Navigate to the project directory:
 
-  >cd ITCL-project
+  >cd ITCL
 
-3. Install the required Python packages using pip:
+3. (Optional) Create a virtual environment
 
-  >pip install -r openai
+  In PowerShell execute 
+  >python -m venv openai-env (only the first time)
 
-  >pip install -r dotenv
+4. (Optional) Activate the virtual environment
 
-4. Set up your OpenAI API key by creating a .env file in the project directory and adding your API key:
+  Activate it in CMD with 
+  >ITCL_project\openai-env\Scripts\activate
+
+5. Install the required Python packages:
+
+  requirements.txt
+
+6. Set up your OpenAI API key by creating a .env file in the project directory and adding your API key:
 
   OPENAI_API_KEY=your-api-key-goes-here
-
-5. Activate the openai-env environment
-
-  Activate it in CMD with
-
-  >ITCL_project\openai-env\Scripts\activate
+  (Note: include this file in the .gitignore file to avoid leaking your key)
 
 ## Usage
 1. Run the run_dialogue.py script:
