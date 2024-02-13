@@ -5,7 +5,7 @@
 
 questions = [
     "How would you respond?",
-    "What's your opinion on this matter?",
+    "What is your opinion on this matter?",
     "Can you elaborate on that?",
     "What are your thoughts?",
     "Could you explain further?",

@@ -46,6 +46,7 @@ This is a Python program that generates a dialogue between two characters on a c
 4. To end the conversation, type "quit" as your message when prompted.
 
 ## Example
+
 --> Enter name/role for first character:
 Albert Einstein
 

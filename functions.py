@@ -27,7 +27,7 @@ def dialogue(character, conversation, personality):
     else:
        prompt = conversation
 
-    # Selecting the random prompt to modify the conversation
+    # Selecting the random prompt/question to modify the conversation
     question = random.choice(questions)
 
     # Using the engine "gpt-3.5-turbo" to generate the reply
@@ -57,7 +57,7 @@ def get_user_message(conversation):
     print(PURPLE + "--> Enter a message, leave it empty to continue, or 'quit' to end:" + RESET)
     user_message = input()
 
-    # If user presses Enter, it continues the dialogue without its intervention
+    # If user presses "Enter", it continues the dialogue without its intervention
     if user_message == "":
         user_message = "User: continue your dialogue saying something new while interacting with each other"
         conversation.append(user_message)

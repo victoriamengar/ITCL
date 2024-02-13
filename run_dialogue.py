@@ -24,7 +24,7 @@ conversation.append(user_message)
 
 print(*conversation, sep = "\n")
 
-# Selecting the random prompt to modify the conversation
+# Selecting the random ppersonality to modify the conversation
 personality1 = random.choice(personal_characteristics)
 personality2 = random.choice(personal_characteristics) 
 

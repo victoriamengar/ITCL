@@ -1,2 +1,2 @@
 python-dotenv = 1.0.1
-openai = 1.11.1 (Requires: anyio, distro, httpx, pydantic, sniffio, tqdm, typing-extensions)
+openai = 1.11.1 (internal requirements: anyio, distro, httpx, pydantic, sniffio, tqdm, typing-extensions)
