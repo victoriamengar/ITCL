@@ -1,13 +1,9 @@
 # This script executes all functions and conditions to create the dialogue
 # functions.py is the file with function definitions
-from functions import dialogue, get_user_message
+
+from functions import dialogue, get_user_message, PURPLE, RESET
 import random
 from questions import personal_characteristics
-
-# Preparing ANSI code colours for the user
-PURPLE = '\033[95m'
-# ANSI escape code to reset text color
-RESET = '\033[0m'
 
 # Asking for the roles and topic to the user
 print(PURPLE + "--> Enter name/role for first character:" + RESET)
