@@ -20,7 +20,7 @@ This is a Python program that generates a dialogue between two characters on a c
 4. (Optional) Activate the virtual environment
 
   Activate it in CMD with 
-  >ITCL_project\openai-env\Scripts\activate
+  >openai-env\Scripts\activate
 
 5. Install the required Python packages:
 
